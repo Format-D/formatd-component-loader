@@ -1,6 +1,6 @@
 {
   "name": "@formatd/component-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An easy way to load Javascript for fusion components",
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
