@@ -12,14 +12,15 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build"
-  },
-  "devDependencies": {
-    "typescript": "^5.1.6"
+    "prepublish": "npm run build",
+    "esbuild": "esbuild ./src/*.ts --outdir=dist --format=cjs --keep-names"
   },
   "keywords": [
     "Neos CMS",
     "Component Loader",
     "Format D"
-  ]
+  ],
+  "devDependencies": {
+    "esbuild": "^0.19.3"
+  }
 }
