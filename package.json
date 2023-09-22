@@ -5,6 +5,10 @@
   "main": "dist/lib.js",
   "types": "dist/lib.d.ts",
   "author": "Format D",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Format-D/formatd-component-loader.git"
+  },
   "license": "MIT",
   "scripts": {
     "build": "tsc",
