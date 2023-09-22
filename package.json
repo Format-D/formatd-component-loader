@@ -1,0 +1,21 @@
+{
+  "name": "@formatd/component-loader",
+  "version": "0.0.1",
+  "description": "An easy way to load Javascript for fusion components",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
+  "author": "Format D",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "keywords": [
+    "Neos CMS",
+    "Component Loader",
+    "Format D"
+  ]
+}
